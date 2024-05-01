@@ -13,6 +13,20 @@
 >> 
 >> ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1500&pause=5000&color=FAFF09&random=false&width=100&height=25&lines=JavaScript)
 
+## Formula Scroll Horizontal
+```javascript
+let customScroll = document.getElementById('scroll')
+
+window.addEventListener('scroll', function () {
+
+    let scrollPercent = window.scrollY / (document.body.clientHeight - window.innerHeight)
+
+    let scrollPercentRoundede = Math.round(scrollPercent * 100)
+
+    customScroll.style.width = scrollPercentRoundede + '%'
+
+})
+```
 
 check this [URL](https://khadem-mh.github.io/autoCompleteInput/) for visit this page
 
