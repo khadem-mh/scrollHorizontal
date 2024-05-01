@@ -28,7 +28,7 @@ window.addEventListener('scroll', function () {
 })
 ```
 
-check this [URL](https://khadem-mh.github.io/autoCompleteInput/) for visit this page
+check this [URL](https://khadem-mh.github.io/scrollHorizontal/) for visit this page
 
 ___
 >### Social Network
